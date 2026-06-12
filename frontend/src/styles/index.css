@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --bg: 240 249 247;
+  --bg-alt: 231 244 241;
+  --surface: 255 255 255;
+  --surface-strong: 249 253 252;
+  --surface-weak: 242 248 247;
+  --border: 208 227 223;
+  --text: 22 42 40;
+  --text-soft: 86 108 104;
+  --brand: 45 158 141;
+  --brand-soft: 221 247 241;
+  --success: 22 163 123;
+  --warning: 203 138 37;
+  --danger: 220 38 70;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply antialiased;
+  color: rgb(var(--text));
+  background:
+    radial-gradient(circle at top left, rgba(45, 158, 141, 0.16), transparent 26%),
+    radial-gradient(circle at top right, rgba(46, 145, 223, 0.10), transparent 24%),
+    radial-gradient(circle at bottom right, rgba(255, 255, 255, 0.72), transparent 30%),
+    linear-gradient(180deg, #eefaf7 0%, #f6fbfa 42%, #e8f4f1 100%);
+}
+
+::selection {
+  background: rgba(44, 162, 142, 0.16);
+  color: rgb(15, 23, 42);
+}
+
+.glass-card {
+  backdrop-filter: blur(18px);
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(255, 255, 255, 0.88);
+}
+
+@media (prefers-color-scheme: dark) {
+  .glass-card {
+    background: rgba(15, 23, 42, 0.78);
+    border: 1px solid rgba(148, 163, 184, 0.15);
+  }
+}
+
+.app-grid {
+  background-image:
+    linear-gradient(rgba(148, 163, 184, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(148, 163, 184, 0.06) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.theme-surface {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.82), rgba(244, 252, 250, 0.82));
+  border: 1px solid rgba(175, 219, 210, 0.72);
+  box-shadow: 0 18px 48px rgba(22, 42, 40, 0.08);
+}
+
+.text-balance {
+  text-wrap: balance;
+}

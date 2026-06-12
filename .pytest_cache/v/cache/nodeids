@@ -1,0 +1,11 @@
+[
+  "backend/tests/test_assistant.py::test_chatbot_creates_session_and_message",
+  "backend/tests/test_assistant.py::test_rag_ingest_and_search",
+  "backend/tests/test_assistant.py::test_report_generation_creates_files_and_records",
+  "backend/tests/test_health.py::test_health_check",
+  "backend/tests/test_operations.py::test_emergency_detection_triggers_critical_alert",
+  "backend/tests/test_operations.py::test_forecast_trainer_produces_artifacts",
+  "backend/tests/test_operations.py::test_forecasting_service_compares_models",
+  "backend/tests/test_operations.py::test_optimization_recommendation_rules_trigger",
+  "backend/tests/test_operations.py::test_staffing_recommendation_returns_shift_allocation"
+]
