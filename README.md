@@ -1,5 +1,5 @@
 # AI-Powered Healthcare Prediction & Resource Management System
-url: https://nec-project-10-healthcare-detection-blc9.onrender.com
+url: https://nec-project-10-healthcare-detection-2cx5.onrender.com
 output:<img width="1918" height="917" alt="image" src="https://github.com/user-attachments/assets/a620adb6-cfdb-4f5a-a00e-387350239367" />
 <img width="1918" height="886" alt="image" src="https://github.com/user-attachments/assets/63eb5334-1abf-4966-a403-99f7625296aa" />
 
